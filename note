@@ -1,0 +1,554 @@
+<!-- Company Prerequisites -->
+
+    <!--<section class="section menu" aria-label="menu-label" id="menu">-->
+    <!--  <div class="container">-->
+
+    <!--    <p class="section-subtitle text-center label-2" id="item23">Terms and Condition</p>-->
+
+    <!--    <h2 class="headline-1 section-title text-center" id="item24">Company Prerequisites</h2>-->
+
+    <!--    <ul class="grid-list">-->
+
+    <!--      <li>-->
+    <!--        <div class="menu-card hover:card">-->
+
+    <!--          <figure class="card-banner" style="--width: 100; --height: 100;">-->
+    <!--            <img src="./assets/images/List.png" width="100" height="100" loading="lazy" alt="Greek Salad"-->
+    <!--              class="img-cover">-->
+    <!--          </figure>-->
+
+    <!--          <div>-->
+
+    <!--            <div class="title-wrapper">-->
+    <!--              <h3 class="title-3">-->
+    <!--                <p href="#" class="card-title">SIUP and NPWP</p>-->
+    <!--              </h3>-->
+
+    <!--            </div>-->
+
+    <!--            <p class="card-text label-1" id="item25">-->
+    <!--              Business License and Taxpayer Identification Number Photocopy-->
+    <!--            </p>-->
+
+    <!--          </div>-->
+
+    <!--        </div>-->
+    <!--      </li>-->
+
+    <!--      <li>-->
+    <!--        <div class="menu-card hover:card">-->
+
+    <!--          <figure class="card-banner" style="--width: 100; --height: 100;">-->
+    <!--            <img src="./assets/images/List.png" width="100" height="100" loading="lazy" alt="Greek Salad"-->
+    <!--              class="img-cover">-->
+    <!--          </figure>-->
+
+    <!--          <div>-->
+
+    <!--            <div class="title-wrapper">-->
+    <!--              <h3 class="title-3">-->
+    <!--                <p href="#" class="card-title" id="item26">Deed of Corporation</p>-->
+    <!--              </h3>-->
+
+    <!--            </div>-->
+
+    <!--            <p class="card-text label-1" id="item27">-->
+    <!--              Photocopy of Deed of Corporation-->
+    <!--            </p>-->
+
+    <!--          </div>-->
+
+    <!--        </div>-->
+    <!--      </li>-->
+
+    <!--      <li>-->
+    <!--        <div class="menu-card hover:card">-->
+
+    <!--          <figure class="card-banner" style="--width: 100; --height: 100;">-->
+    <!--            <img src="./assets/images/List.png" width="100" height="100" loading="lazy" alt="Greek Salad"-->
+    <!--              class="img-cover">-->
+    <!--          </figure>-->
+
+    <!--          <div>-->
+
+    <!--            <div class="title-wrapper">-->
+    <!--              <h3 class="title-3">-->
+    <!--                <p href="#" class="card-title" id="item28">Certificate of Company Registration</p>-->
+    <!--              </h3>-->
+
+    <!--            </div>-->
+
+    <!--            <p class="card-text label-1" id="item29">-->
+    <!--              Cerfificate Photocopy of Company Registration-->
+    <!--            </p>-->
+
+    <!--          </div>-->
+
+    <!--        </div>-->
+    <!--      </li>-->
+
+    <!--      <li>-->
+    <!--        <div class="menu-card hover:card">-->
+
+    <!--          <figure class="card-banner" style="--width: 100; --height: 100;">-->
+    <!--            <img src="./assets/images/List.png" width="100" height="100" loading="lazy" alt="Greek Salad"-->
+    <!--              class="img-cover">-->
+    <!--          </figure>-->
+
+    <!--          <div>-->
+
+    <!--            <div class="title-wrapper">-->
+    <!--              <h3 class="title-3">-->
+    <!--                <p href="#" class="card-title" id="item30">Company Domicile Letter</p>-->
+    <!--              </h3>-->
+
+    <!--            </div>-->
+
+    <!--            <p class="card-text label-1" id="item31">-->
+    <!--              Photocopy of Company Domicile Letter-->
+    <!--            </p>-->
+
+    <!--          </div>-->
+
+    <!--        </div>-->
+    <!--      </li>-->
+
+    <!--      <li>-->
+    <!--        <div class="menu-card hover:card">-->
+
+    <!--          <figure class="card-banner" style="--width: 100; --height: 100;">-->
+    <!--            <img src="./assets/images/List.png" width="100" height="100" loading="lazy" alt="Greek Salad"-->
+    <!--              class="img-cover">-->
+    <!--          </figure>-->
+
+    <!--          <div>-->
+
+    <!--            <div class="title-wrapper">-->
+    <!--              <h3 class="title-3">-->
+    <!--                <p href="#" class="card-title" id="item32">Decision Letter</p>-->
+    <!--              </h3>-->
+
+    <!--            </div>-->
+
+    <!--            <p class="card-text label-1" id="item33">-->
+    <!--              Decision Letter from the Minister of Law and Human Rights (Menkumham)-->
+    <!--            </p>-->
+
+    <!--          </div>-->
+
+    <!--        </div>-->
+    <!--      </li>-->
+
+    <!--      <li>-->
+    <!--        <div class="menu-card hover:card">-->
+
+    <!--          <figure class="card-banner" style="--width: 100; --height: 100;">-->
+    <!--            <img src="./assets/images/List.png" width="100" height="100" loading="lazy" alt="Greek Salad"-->
+    <!--              class="img-cover">-->
+    <!--          </figure>-->
+
+    <!--          <div>-->
+
+    <!--            <div class="title-wrapper">-->
+    <!--              <h3 class="title-3">-->
+    <!--                <p href="#" class="card-title" id="item34">Resident Identity Card</p>-->
+    <!--              </h3>-->
+
+    <!--            </div>-->
+
+    <!--            <p class="card-text label-1" id="item35">-->
+    <!--              Photocopy of Resident Identity Card (KTP) of directors and responsible officers-->
+    <!--            </p>-->
+
+    <!--          </div>-->
+
+    <!--        </div>-->
+    <!--      </li>-->
+
+    <!--      <li>-->
+    <!--        <div class="menu-card hover:card">-->
+
+    <!--          <figure class="card-banner" style="--width: 100; --height: 100;">-->
+    <!--            <img src="./assets/images/List.png" width="100" height="100" loading="lazy" alt="Greek Salad"-->
+    <!--              class="img-cover">-->
+    <!--          </figure>-->
+
+    <!--          <div>-->
+
+    <!--            <div class="title-wrapper">-->
+    <!--              <h3 class="title-3">-->
+    <!--                <p href="#" class="card-title" id="item36">Power of Attorney Letter</p>-->
+    <!--              </h3>-->
+
+    <!--            </div>-->
+
+    <!--            <p class="card-text label-1" id="item37">-->
+    <!--              Power of Attorney Letter when not the Director of the Company is responsible-->
+    <!--            </p>-->
+
+    <!--          </div>-->
+
+    <!--        </div>-->
+    <!--      </li>-->
+
+    <!--      <li>-->
+    <!--        <div class="menu-card hover:card">-->
+
+    <!--          <figure class="card-banner" style="--width: 100; --height: 100;">-->
+    <!--            <img src="./assets/images/List.png" width="100" height="100" loading="lazy" alt="Greek Salad"-->
+    <!--              class="img-cover">-->
+    <!--          </figure>-->
+
+    <!--          <div>-->
+
+    <!--            <div class="title-wrapper">-->
+    <!--              <h3 class="title-3">-->
+    <!--                <p href="#" class="card-title" id="item38">Driver License</p>-->
+    <!--              </h3>-->
+
+    <!--            </div>-->
+
+    <!--            <p class="card-text label-1" id="item39">-->
+    <!--              Photocopy of Driver License-->
+    <!--            </p>-->
+
+    <!--          </div>-->
+
+    <!--        </div>-->
+    <!--      </li>-->
+
+    <!--      <li>-->
+    <!--        <div class="menu-card hover:card">-->
+
+    <!--          <figure class="card-banner" style="--width: 100; --height: 100;">-->
+    <!--            <img src="./assets/images/List.png" width="100" height="100" loading="lazy" alt="Greek Salad"-->
+    <!--              class="img-cover">-->
+    <!--          </figure>-->
+
+    <!--          <div>-->
+
+    <!--            <div class="title-wrapper">-->
+    <!--              <h3 class="title-3">-->
+    <!--                <p class="card-title" id="item40">Company Domicile Location Survey</p>-->
+    <!--              </h3>-->
+
+    <!--            </div>-->
+
+    <!--            <p class="card-text label-1" id="item41">-->
+    <!--              Location Survery of Company Domicile-->
+    <!--            </p>-->
+
+    <!--          </div>-->
+
+    <!--        </div>-->
+    <!--      </li>-->
+          
+
+    <!--    </ul>-->
+
+    <!--  </div>-->
+    <!--</section>-->
+
+
+
+    <!-- Individual Prerequisites -->
+    <!--<section class="section menu" aria-label="menu-label" id="menu">-->
+    <!--  <div class="container">-->
+
+    <!--    <p class="section-subtitle text-center label-2" id="item42">Terms and Condition</p>-->
+
+    <!--    <h2 class="headline-1 section-title text-center" id="item43">Individual Prerequisites</h2>-->
+
+    <!--    <ul class="grid-list">-->
+
+    <!--      <li>-->
+    <!--        <div class="menu-card hover:card">-->
+
+    <!--          <figure class="card-banner" style="--width: 100; --height: 100;">-->
+    <!--            <img src="./assets/images/List.png" width="100" height="100" loading="lazy" alt="Greek Salad"-->
+    <!--              class="img-cover">-->
+    <!--          </figure>-->
+
+    <!--          <div>-->
+
+    <!--            <div class="title-wrapper">-->
+    <!--              <h3 class="title-3">-->
+    <!--                <p href="#" class="card-title" id="item44">House Ownership Certificate</p>-->
+    <!--              </h3>-->
+
+    <!--            </div>-->
+
+    <!--            <p class="card-text label-1" id="item45">-->
+    <!--              Certificate Proof of House Ownership Photocopy-->
+    <!--            </p>-->
+
+    <!--          </div>-->
+
+    <!--        </div>-->
+    <!--      </li>-->
+
+    <!--      <li>-->
+    <!--        <div class="menu-card hover:card">-->
+
+    <!--          <figure class="card-banner" style="--width: 100; --height: 100;">-->
+    <!--            <img src="./assets/images/List.png" width="100" height="100" loading="lazy" alt="Greek Salad"-->
+    <!--              class="img-cover">-->
+    <!--          </figure>-->
+
+    <!--          <div>-->
+
+    <!--            <div class="title-wrapper">-->
+    <!--              <h3 class="title-3">-->
+    <!--                <p href="#" class="card-title" id="item46">Land and Building Tax Documents</p>-->
+    <!--              </h3>-->
+
+    <!--            </div>-->
+
+    <!--            <p class="card-text label-1" id="item47">-->
+    <!--              Photocopy of Land and Building Tax (PBB)-->
+    <!--            </p>-->
+
+    <!--          </div>-->
+
+    <!--        </div>-->
+    <!--      </li>-->
+
+    <!--      <li>-->
+    <!--        <div class="menu-card hover:card">-->
+
+    <!--          <figure class="card-banner" style="--width: 100; --height: 100;">-->
+    <!--            <img src="./assets/images/List.png" width="100" height="100" loading="lazy" alt="Greek Salad"-->
+    <!--              class="img-cover">-->
+    <!--          </figure>-->
+
+    <!--          <div>-->
+
+    <!--            <div class="title-wrapper">-->
+    <!--              <h3 class="title-3">-->
+    <!--                <p href="#" class="card-title" id="item48">Tax Identification Number (NPWP)</p>-->
+    <!--              </h3>-->
+
+    <!--            </div>-->
+
+    <!--            <p class="card-text label-1" id="item49">-->
+    <!--              Photocopy of Tax Identification Number (NPWP)-->
+    <!--            </p>-->
+
+    <!--          </div>-->
+
+    <!--        </div>-->
+    <!--      </li>-->
+
+    <!--      <li>-->
+    <!--        <div class="menu-card hover:card">-->
+
+    <!--          <figure class="card-banner" style="--width: 100; --height: 100;">-->
+    <!--            <img src="./assets/images/List.png" width="100" height="100" loading="lazy" alt="Greek Salad"-->
+    <!--              class="img-cover">-->
+    <!--          </figure>-->
+
+    <!--          <div>-->
+
+    <!--            <div class="title-wrapper">-->
+    <!--              <h3 class="title-3">-->
+    <!--                <p href="#" class="card-title" id="item50">Identity Card Documents</p>-->
+    <!--              </h3>-->
+
+    <!--            </div>-->
+
+    <!--            <p class="card-text label-1" id="item51">-->
+    <!--              Photocopy of Identity Card (Applicants and Borrowers)-->
+    <!--            </p>-->
+
+    <!--          </div>-->
+
+    <!--        </div>-->
+    <!--      </li>-->
+
+    <!--      <li>-->
+    <!--        <div class="menu-card hover:card">-->
+
+    <!--          <figure class="card-banner" style="--width: 100; --height: 100;">-->
+    <!--            <img src="./assets/images/List.png" width="100" height="100" loading="lazy" alt="Greek Salad"-->
+    <!--              class="img-cover">-->
+    <!--          </figure>-->
+
+    <!--          <div>-->
+
+    <!--            <div class="title-wrapper">-->
+    <!--              <h3 class="title-3">-->
+    <!--                <p href="#" class="card-title" id="item52">Family Card Documents</p>-->
+    <!--              </h3>-->
+
+    <!--            </div>-->
+
+    <!--            <p class="card-text label-1" id="item53">-->
+    <!--              Photocopy of Family Card Documents-->
+    <!--            </p>-->
+
+    <!--          </div>-->
+
+    <!--        </div>-->
+    <!--      </li>-->
+
+    <!--      <li>-->
+    <!--        <div class="menu-card hover:card">-->
+
+    <!--          <figure class="card-banner" style="--width: 100; --height: 100;">-->
+    <!--            <img src="./assets/images/List.png" width="100" height="100" loading="lazy" alt="Greek Salad"-->
+    <!--              class="img-cover">-->
+    <!--          </figure>-->
+
+    <!--          <div>-->
+
+    <!--            <div class="title-wrapper">-->
+    <!--              <h3 class="title-3">-->
+    <!--                <p href="#" class="card-title" id="item54">Passport</p>-->
+    <!--              </h3>-->
+
+    <!--            </div>-->
+
+    <!--            <p class="card-text label-1" id="item55">-->
+    <!--              Photocopy of Passport Documents-->
+    <!--            </p>-->
+
+    <!--          </div>-->
+
+    <!--        </div>-->
+    <!--      </li>-->
+
+    <!--      <li>-->
+    <!--        <div class="menu-card hover:card">-->
+
+    <!--          <figure class="card-banner" style="--width: 100; --height: 100;">-->
+    <!--            <img src="./assets/images/List.png" width="100" height="100" loading="lazy" alt="Greek Salad"-->
+    <!--              class="img-cover">-->
+    <!--          </figure>-->
+
+    <!--          <div>-->
+
+    <!--            <div class="title-wrapper">-->
+    <!--              <h3 class="title-3">-->
+    <!--                <p href="#" class="card-title" id="item56">Driver License</p>-->
+    <!--              </h3>-->
+
+    <!--            </div>-->
+
+    <!--            <p class="card-text label-1" id="item57">-->
+    <!--              Photocopy of Driver License Documents-->
+    <!--            </p>-->
+
+    <!--          </div>-->
+
+    <!--        </div>-->
+    <!--      </li>-->
+
+    <!--      <li>-->
+    <!--        <div class="menu-card hover:card">-->
+
+    <!--          <figure class="card-banner" style="--width: 100; --height: 100;">-->
+    <!--            <img src="./assets/images/List.png" width="100" height="100" loading="lazy" alt="Greek Salad"-->
+    <!--              class="img-cover">-->
+    <!--          </figure>-->
+
+    <!--          <div>-->
+
+    <!--            <div class="title-wrapper">-->
+    <!--              <h3 class="title-3">-->
+    <!--                <p href="#" class="card-title" id="item58">Workplace ID Card</p>-->
+    <!--              </h3>-->
+
+    <!--            </div>-->
+
+    <!--            <p class="card-text label-1" id="item59">-->
+    <!--              Photocopy of Workplace ID Card-->
+    <!--            </p>-->
+
+    <!--          </div>-->
+
+    <!--        </div>-->
+    <!--      </li>-->
+
+    <!--      <li>-->
+    <!--        <div class="menu-card hover:card">-->
+
+    <!--          <figure class="card-banner" style="--width: 100; --height: 100;">-->
+    <!--            <img src="./assets/images/List.png" width="100" height="100" loading="lazy" alt="Greek Salad"-->
+    <!--              class="img-cover">-->
+    <!--          </figure>-->
+
+    <!--          <div>-->
+
+    <!--            <div class="title-wrapper">-->
+    <!--              <h3 class="title-3">-->
+    <!--                <p class="card-title" id="item60">Name Card</p>-->
+    <!--              </h3>-->
+
+    <!--            </div>-->
+
+    <!--            <p class="card-text label-1" id="item61">-->
+    <!--              Name Card Documents-->
+    <!--            </p>-->
+
+    <!--          </div>-->
+
+    <!--        </div>-->
+    <!--      </li>-->
+
+    <!--      <li>-->
+    <!--        <div class="menu-card hover:card">-->
+
+    <!--          <figure class="card-banner" style="--width: 100; --height: 100;">-->
+    <!--            <img src="./assets/images/List.png" width="100" height="100" loading="lazy" alt="Greek Salad"-->
+    <!--              class="img-cover">-->
+    <!--          </figure>-->
+
+    <!--          <div>-->
+
+    <!--            <div class="title-wrapper">-->
+    <!--              <h3 class="title-3">-->
+    <!--                <p class="card-title" id="item62">Preparing Guarantor</p>-->
+    <!--              </h3>-->
+
+    <!--            </div>-->
+
+    <!--            <p class="card-text label-1" id="item63">-->
+    <!--              Preparing Guarantor Whenever Necessary-->
+    <!--            </p>-->
+
+    <!--          </div>-->
+
+    <!--        </div>-->
+    <!--      </li>-->
+
+    <!--      <li>-->
+    <!--        <div class="menu-card hover:card">-->
+
+    <!--          <figure class="card-banner" style="--width: 100; --height: 100;">-->
+    <!--            <img src="./assets/images/List.png" width="100" height="100" loading="lazy" alt="Greek Salad"-->
+    <!--              class="img-cover">-->
+    <!--          </figure>-->
+
+    <!--          <div>-->
+
+    <!--            <div class="title-wrapper">-->
+    <!--              <h3 class="title-3">-->
+    <!--                <p class="card-title" id="item64">Parking Space</p>-->
+    <!--              </h3>-->
+
+    <!--            </div>-->
+
+    <!--            <p class="card-text label-1" id="item65">-->
+    <!--              Availability of Adequate and Proper Parking Space-->
+    <!--            </p>-->
+
+    <!--          </div>-->
+
+    <!--        </div>-->
+    <!--      </li>-->
+          
+
+    <!--    </ul>-->
+
+    <!--  </div>-->
+    <!--</section>-->
