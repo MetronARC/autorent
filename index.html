@@ -112,6 +112,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       </div>
 
+      <div class="topbar-item language-toggle">
+        <img id="flag-icon" src="assets/images/indonesia-flag.png" alt="Flag" width="20" height="15">
+        <button id="language-toggle-btn" style="color: white; border: none; background: none; cursor: pointer;">ID</button>
+      </div>
+
       <a href="tel:+6285925540240" class="topbar-item link">
         <div class="icon">
           <ion-icon name="call-outline" aria-hidden="true" style="color: white;"></ion-icon>
@@ -134,10 +139,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     </div>
   </div>
-
-
-
-
 
   <!-- 
     - #HEADER
@@ -174,7 +175,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a href="#about" class="navbar-link hover-underline">
               <div class="separator"></div>
 
-              <span class="span" style="color: white;">Tentang Kita</span>
+              <span class="span" style="color: white;" id="item11">Tentang Kita</span>
             </a>
           </li>
 
@@ -182,7 +183,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a href="#recent" class="navbar-link hover-underline">
               <div class="separator"></div>
 
-              <span class="span" style="color: white;">Armada Tersedia</span>
+              <span class="span" style="color: white;" id="item12">Armada Tersedia</span>
             </a>
           </li>
 
@@ -190,7 +191,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a href="#strength" class="navbar-link hover-underline">
               <div class="separator"></div>
 
-              <span class="span" style="color: white;">Kelebihan Kami</span>
+              <span class="span" style="color: white;" id="item13">Kelebihan Kami</span>
             </a>
           </li>
 
@@ -215,7 +216,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </nav>
 
       <a href="Login/index.html" class="btn btn-secondary">
-        <span class="text text-1" id="item11" style="color: white;">Login/Registrasi</span>
+        <span class="text text-1" id="item9" style="color: white;">Login/Registrasi</span>
 
         <span class="text text-2" aria-hidden="true" style="color: white;">Login/Registrasi</span>
       </a>
@@ -338,7 +339,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <section class="section menu" aria-label="menu-label" id="recent">
         <div class="container">
 
-          <h2 class="headline-1 section-title text-center">Armada Tersedia</h2>
+          <h2 class="headline-1 section-title text-center" id="item14">Armada Tersedia</h2>
 
           <ul class="grid-list">
 
@@ -358,7 +359,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a class="book-button" data-car-name="Hyundai Stargazer" style="cursor: pointer;"></a>
       </div>
       <p class="card-text label-1">
-        • MPV • Bensin • Automatic
+        • MPV • Petrol • Automatic
       </p>
     </div>
   </div>
@@ -386,7 +387,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </div>
 
                   <p class="card-text label-1">
-                    •	MPV •	Bensin •	Automatic
+                    •	MPV •	Petrol •	Automatic
                   </p>
 
                 </div>
@@ -415,7 +416,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </div>
 
                   <p class="card-text label-1">
-                    •	CVT •	Bensin •	Crossover
+                    •	CVT •	Petrol •	Crossover
                   </p>
 
                 </div>
@@ -444,7 +445,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </div>
 
                   <p class="card-text label-1">
-                    •	MPV •	Bensin •	CVT
+                    •	MPV •	Petrol •	CVT
                   </p>
 
                 </div>
@@ -473,7 +474,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </div>
 
                   <p class="card-text label-1">
-                    •	SUV •	Bensin •	Automatic 
+                    •	SUV •	Petrol •	Automatic 
                   </p>
 
                 </div>
@@ -502,7 +503,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </div>
 
                   <p class="card-text label-1">
-                    •	MPV •	Bensin •	CVT
+                    •	MPV •	Petrol •	CVT
                   </p>
 
                 </div>
@@ -531,7 +532,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </div>
 
                   <p class="card-text label-1">
-                    •	Hatchback •	Listrik •	Automatic
+                    •	Hatchback •	Electric •	Automatic
                   </p>
 
                 </div>
@@ -581,9 +582,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <section class="section features text-center" aria-label="features" id="strength" data-aos="zoom-out" data-aos-duration="500">
         <div class="container">
 
-            <p class="section-subtitle label-2" id="item13">Kenapa Memilih Kami?</p>
+            <p class="section-subtitle label-2" id="item15">Kenapa Memilih Kami?</p>
 
-            <h2 class="headline-1 section-title" id="item14">Kelebihan Kami</h2>
+            <h2 class="headline-1 section-title" id="item16">Kelebihan Kami</h2>
 
             <ul class="grid-list">
 
@@ -594,9 +595,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
                         </div>
 
-                        <h3 class="title-2 card-title" id="item15">Responsivitas</h3>
+                        <h3 class="title-2 card-title" id="item17">Responsivitas</h3>
 
-                        <p class="label-1 card-text" id="item16">Layanan pemeliharaan kami menunjukkan tingkat responsivitas yang tinggi, memastikan solusi yang cepat dan efektif untuk memenuhi kebutuhan Anda secara tepat waktu</p>
+                        <p class="label-1 card-text" id="item18">Layanan pemeliharaan kami menunjukkan tingkat responsivitas yang tinggi, memastikan solusi yang cepat dan efektif untuk memenuhi kebutuhan Anda secara tepat waktu</p>
 
                     </div>
                 </li>
@@ -608,9 +609,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
                         </div>
 
-                        <h3 class="title-2 card-title" id="item17">Standar Tinggi</h3>
+                        <h3 class="title-2 card-title" id="item19">Standar Tinggi</h3>
 
-                        <p class="label-1 card-text" id="item18">Mobil-mobil kami menonjol sebagai contoh keunggulan, menetapkan standar tertinggi</p>
+                        <p class="label-1 card-text" id="item20">Mobil-mobil kami menonjol sebagai contoh keunggulan, menetapkan standar tertinggi</p>
 
                     </div>
                 </li>
@@ -622,9 +623,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
                         </div>
 
-                        <h3 class="title-2 card-title" id="item19">Layanan Terbaik</h3>
+                        <h3 class="title-2 card-title" id="item21">Layanan Terbaik</h3>
 
-                        <p class="label-1 card-text" id="item20">Kami bangga menawarkan layanan yang tak tertandingi, memastikan pengalaman yang melampaui semua ekspektasi</p>
+                        <p class="label-1 card-text" id="item22">Kami bangga menawarkan layanan yang tak tertandingi, memastikan pengalaman yang melampaui semua ekspektasi</p>
 
                     </div>
                 </li>
@@ -646,6 +647,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </ul>
 
         </div>
+        </section>
     </section>
 
     <!-- Additional Note -->
@@ -764,15 +766,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </li>
 
                 <li>
-                    <a href="#about" class="label-2 footer-link hover-underline">Tentang Kita</a>
+                    <a href="#about" class="label-2 footer-link hover-underline" id="item25">Tentang Kita</a>
                 </li>
 
                 <li>
-                    <a href="#recent" class="label-2 footer-link hover-underline">Armada Tersedia</a>
+                    <a href="#recent" class="label-2 footer-link hover-underline" id="item26">Armada Tersedia</a>
                 </li>
 
                 <li>
-                    <a href="#strength" class="label-2 footer-link hover-underline">Kelebihan Kami</a>
+                    <a href="#strength" class="label-2 footer-link hover-underline" id="item27">Kelebihan Kami</a>
                 </li>
 
             </ul>
@@ -819,11 +821,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 </footer>
 
-
-
-
-
-
   <!-- 
     - #BACK TO TOP
   -->
@@ -849,89 +846,57 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
   <script>
-    // Define a variable to track the current language state
-    var isEnglish = true;
+    document.addEventListener("DOMContentLoaded", function () {
+    const translations = {
+      "item1": { en: "Trusted Car Rental Solution in Batam", id: "Solusi Sewa Mobil Terpercaya di Batam" },
+      "item2": { en: "Professional, reliable, and tailored to your needs", id: "Professional, handal, dan disesuaikan dengan kebutuhan" },
+      "item3": { en: "Premium Fleet and Flexible Packages", id: "Armada Premium dan Paket Fleksibel" },
+      "item4": { en: "We provide quality fleet and easy booking", id: "Kami menyediakan armada berkualitas serta pemesanan yang mudah" },
+      "item5": { en: "About Us", id: "Tentang Kami" },
+      "item6": { en: "AutoRent Service is a leading car rental provider in Batam, offering a wide selection of the latest, well-maintained vehicles in excellent condition, available for daily or monthly needs, with or without a driver. We prioritize cleanliness and comfort in each vehicle to ensure the best driving experience for our customers. With competitive prices and a diverse fleet, AutoRent Service is committed to being a trusted vehicle rental partner to meet all your transportation needs, whether for business, leisure, or personal purposes.", id: "AutoRent Service adalah penyedia layanan sewa mobil terkemuka di Batam yang menawarkan berbagai pilihan kendaraan terbaru dengan kondisi prima dan terawat, baik untuk kebutuhan harian maupun bulanan, dengan atau tanpa supir. Kami mengutamakan kebersihan dan kenyamanan setiap unit mobil demi memberikan pengalaman berkendara terbaik bagi pelanggan. Dengan harga yang kompetitif serta armada yang variatif, AutoRent Service berkomitmen menjadi mitra sewa kendaraan yang terpercaya untuk memenuhi segala kebutuhan transportasi Anda, baik untuk bisnis, liburan, maupun keperluan pribadi." },
+      "item7": { en: "Rent by Call", id: "Sewa Melalui Panggilan" },
+      "item8": { en: "Rent Now", id: "Sewa Sekarang" },
+      "item9": { en: "Login/Register", id: "Login/Registrasi" },
+      "item10": { en: "Login/Register", id: "Login" },
+      "item11": { en: "About Us", id: "Tentang Kita" },
+      "item12": { en: "Available Fleet", id: "Armada Tersedia" },
+      "item13": { en: "Our Strength", id: "Kelebihan Kami" },
+      "item14": { en: "Available Fleet", id: "Armada Tersedia" },
+      "item15": { en: "Why Choose Us?", id: "Kenapa Memilih Kami?" },
+      "item16": { en: "Our Strength", id: "Kelebihan Kami" },
+      "item17": { en: "Responsiveness", id: "Responsivitas" },
+      "item18": { en: "Our maintenance services demonstrate a high level of responsiveness, ensuring quick and effective solutions to meet your needs promptly", id: "Layanan pemeliharaan kami menunjukkan tingkat responsivitas yang tinggi, memastikan solusi yang cepat dan efektif untuk memenuhi kebutuhan Anda secara tepat waktu" },
+      "item19": { en: "High Standard", id: "Standar Tinggi" },
+      "item20": { en: "Our cars stand out as examples of excellence, setting the highest standards", id: "Mobil-mobil kami menonjol sebagai contoh keunggulan, menetapkan standar tertinggi" },
+      "item21": { en: "Best Service", id: "Layanan Terbaik" },
+      "item22": { en: "We take pride in offering unmatched service, ensuring an experience that exceeds all expectations", id: "Kami bangga menawarkan layanan yang tak tertandingi, memastikan pengalaman yang melampaui semua ekspektasi" },
+      "item23": { en: "Quick Support", id: "Dukungan Cepat" },
+      "item24": { en: "We provide unwavering support with full dedication, going above and beyond to ensure your needs are met and even exceeded", id: "Kami memberikan dukungan tanpa henti dengan dedikasi penuh, mengerahkan segala upaya untuk memastikan kebutuhan Anda terpenuhi dan bahkan terlampaui" },
+      "item25": { en: "About Us", id: "Tentang Kita" },
+      "item26": { en: "Available Fleet", id: "Armada Tersedia" },
+      "item27": { en: "Our Strength", id: "Kelebihan Kami" },
+      // Add further translations as needed
+    };
 
-    document.getElementById("languageButton").addEventListener("click", function() {
-        // Toggle the language state
-        isEnglish = !isEnglish;
+    let currentLanguage = "id";
 
-        // Change the flag image source
-        var flagImage = document.getElementById("flagImage");
-        flagImage.src = isEnglish ? "assets/images/english-flag.png" : "assets/images/indonesia-flag.png";
+    document.getElementById("language-toggle-btn").addEventListener("click", () => {
+        currentLanguage = currentLanguage === "id" ? "en" : "id";
+        document.getElementById("flag-icon").src = currentLanguage === "id" ? "assets/images/indonesia-flag.png" : "assets/images/english-flag.png";
+        document.getElementById("language-toggle-btn").textContent = currentLanguage.toUpperCase();
 
-        // Change the text content based on the language state
-        document.getElementById("item1").innerHTML = isEnglish ? "Maintained to the <br> Highest Standard" : "Dijaga dengan <br> Standar Tertinggi";
-        document.getElementById("item2").innerHTML = isEnglish ? "Rent with us for outstanding experience" : "Sewa bersama kami untuk pengalaman yang mengagumkan";
-        document.getElementById("item3").innerHTML = isEnglish ? "Services Second <br> to None" : "Layanan yang <br> Sangat Baik";
-        document.getElementById("item4").innerHTML = isEnglish ? "Enjoy the ride to the fullest of heart" : "Nikmati perjalanan dengan sepenuh hati";
-        document.getElementById("item5").innerHTML = isEnglish ? "Rent for Your Future" : "Sewa untuk Masa Depanmu";
-        document.getElementById("item6").innerHTML = isEnglish ? "Auto Rent Batam is a car renting services that resides on Batam, Indonesia. It offers topnotch cars with high standards and quality maintenance" : "Auto Rent Batam adalah layanan penyewaan mobil yang berada di Batam, Indonesia. Menawarkan mobil jempolan dengan standar tinggi dan perawatan berkualitas.";
-        document.getElementById("item7").innerHTML = isEnglish ? "Book Through Call" : "Booking Melalui Telepon";
-        document.getElementById("item8").innerHTML = isEnglish ? "Book Now" : "Booking Sekarang";
-        document.getElementById("item9").innerHTML = isEnglish ? "Our Recent Cars" : "Mobil Terbaru Kami";
-        document.getElementById("item10").innerHTML = isEnglish ? "We provide exceptional-quality services" : "Kami menyediakan layanan yang berkualitas";
-        document.getElementById("item11").innerHTML = isEnglish ? "Rent" : "Sewa";
-        document.getElementById("item12").innerHTML = isEnglish ? "Discover automotive excellence in our latest showcase, where cutting-edge vehicles seamlessly beld style and technology for an unparalleled driving experience" : "Temukan keunggulan otomotif dalam pameran terbaru kami, di mana kendaraan-kendaraan mutakhir dengan mulus memadukan gaya dan teknologi untuk pengalaman berkendara yang tak tertandingi";
-        document.getElementById("item13").innerHTML = isEnglish ? "Why Choose Us" : "Kenapa Memilih Kami";
-        document.getElementById("item14").innerHTML = isEnglish ? "Our Strength" : "Kelebihan Kami";
-        document.getElementById("item15").innerHTML = isEnglish ? "Responsiveness" : "Daya Tanggap";
-        document.getElementById("item16").innerHTML = isEnglish ? "Our maintenance services exhibit a high level of responsiveness, ensuring swift and effective solutions to meet your needs promptly" : "Layanan pemeliharaan kami menunjukkan tingkat respons yang tinggi, memastikan solusi yang cepat dan efektif untuk memenuhi kebutuhan Anda dengan segera";
-        document.getElementById("item17").innerHTML = isEnglish ? "High Standard" : "Standar Tinggi";
-        document.getElementById("item18").innerHTML = isEnglish ? "Our cars stand out as exemplars of excellence, setting the highest standard" : "Mobil kami menonjol sebagai teladan keunggulan, menetapkan standar tertinggi";
-        document.getElementById("item19").innerHTML = isEnglish ? "Finest Service" : "Layanan Terbaik";
-        document.getElementById("item20").innerHTML = isEnglish ? "We take pride in offering a service that is unparalleled, ensuring an experience that surpasses all expectations" : "Kami bangga menawarkan layanan yang tak tertandingi, memastikan pengalaman yang melampaui semua harapan";
-        document.getElementById("item21").innerHTML = isEnglish ? "Agile Support" : "Bantuan Tangkas";
-        document.getElementById("item22").innerHTML = isEnglish ? "We provide unwavering support with utmost dedication, giving our all to ensure your needs are met and exceeded" : "Kami memberikan dukungan yang tak tergoyahkan dengan dedikasi penuh, memberikan segalanya untuk memastikan kebutuhan Anda terpenuhi dan terlampaui";
-        document.getElementById("item23").innerHTML = isEnglish ? "Terms and Condition" : "Syarat dan Ketentuan";
-        document.getElementById("item24").innerHTML = isEnglish ? "Company Prerequisites" : "Ketentuan untuk Perusahaan";
-        document.getElementById("item25").innerHTML = isEnglish ? "Business License and Taxpayer Identification Number Photocopy" : "Fotokopi Izin Usaha dan Nomor Pokok Wajib Pajak";
-        document.getElementById("item26").innerHTML = isEnglish ? "Deed of Corporation" : "Akta Perusahaan";
-        document.getElementById("item27").innerHTML = isEnglish ? "Photocopy of Deed of Corporation" : "Fotokopi Akta Perusahaan";
-        document.getElementById("item28").innerHTML = isEnglish ? "Certificate of Company Registration" : "Tanda Daftar Perusahaan";
-        document.getElementById("item29").innerHTML = isEnglish ? "Cerfificate Photocopy of Company Registration" : "Fotokopi Sertifikat Tanda Daftar Perusahaan";
-        document.getElementById("item30").innerHTML = isEnglish ? "Company Domicile Letter" : "Surat Domisili Perusahaan";
-        document.getElementById("item31").innerHTML = isEnglish ? "Photocopy of Company Domicile Letter" : "Fotokopi Surat Domisili Perusahaan";
-        document.getElementById("item32").innerHTML = isEnglish ? "Decision Letter" : "Surat Keputusan";
-        document.getElementById("item33").innerHTML = isEnglish ? "Decision Letter from the Minister of Law and Human Rights (Menkumham)" : "Surat Keputusan Menteri Hukum dan Hak Asasi Manusia (Menkumham)";
-        document.getElementById("item34").innerHTML = isEnglish ? "Resident Identity Card" : "Kartu Tanda Penduduk";
-        document.getElementById("item35").innerHTML = isEnglish ? "Photocopy of Resident Identity Card (KTP) of directors and responsible officers" : "Fotokopi Kartu Tanda Penduduk direksi dan pejabat yang bertanggung jawab";
-        document.getElementById("item36").innerHTML = isEnglish ? "Power of Attorney Letter" : "Surat Kuasa";
-        document.getElementById("item37").innerHTML = isEnglish ? "Power of Attorney Letter when not the Director of the Company is responsible" : "Surat Kuasa apabila bukan Direktur Perseroan yang bertanggung jawab";
-        document.getElementById("item38").innerHTML = isEnglish ? "Driver License" : "Surat Izin Mengemudi";
-        document.getElementById("item39").innerHTML = isEnglish ? "Photocopy of Driver License" : "Fotokopi Surat Izin Mengemudi";
-        document.getElementById("item40").innerHTML = isEnglish ? "Company Domicile Location Survey" : "Survei Lokasi Domisili Perusahaan";
-        document.getElementById("item41").innerHTML = isEnglish ? "Location Survery of Company Domicile" : "Survei Lokasi Domisili Perusahaan";
-        document.getElementById("item42").innerHTML = isEnglish ? "Terms and Conditions" : "Syarat dan Ketentuan";
-        document.getElementById("item43").innerHTML = isEnglish ? "Individual Prerequisites" : "Ketentuan untuk Pribadi";
-        document.getElementById("item44").innerHTML = isEnglish ? "House Ownership Certificate" : "Sertifikat Kepemilikan Rumah";
-        document.getElementById("item45").innerHTML = isEnglish ? "Certificate Proof of House Ownership Photocopy" : "Fotocopy Bukti Sertifikat Kepemilikan Rumah";
-        document.getElementById("item46").innerHTML = isEnglish ? "Land and Building Tax Documents" : "Dokumen Pajak Bumi dan Bangunan";
-        document.getElementById("item47").innerHTML = isEnglish ? "Photocopy of Land and Building Tax (PBB)" : "Fotokopi Pajak Bumi dan Bangunan (PBB)";
-        document.getElementById("item48").innerHTML = isEnglish ? "Tax Identification Number (NPWP)" : "Nomor Pokok Wajib Pajak (NPWP)";
-        document.getElementById("item49").innerHTML = isEnglish ? "Photocopy of Tax Identification Number (NPWP)" : "Fotokopi Nomor Pokok Wajib Pajak (NPWP)";
-        document.getElementById("item50").innerHTML = isEnglish ? "Identity Card Documents" : "Dokumen Kartu Identitas";
-        document.getElementById("item51").innerHTML = isEnglish ? "Photocopy of Identity Card (Applicants and Borrowers)" : "Fotokopi Kartu Identitas (Pemohon dan Peminjam)";
-        document.getElementById("item52").innerHTML = isEnglish ? "Family Card Documents" : "Dokumen Kartu Keluarga";
-        document.getElementById("item53").innerHTML = isEnglish ? "Photocopy of Family Card Documents" : "Fotocopy Dokumen Kartu Keluarga";
-        document.getElementById("item54").innerHTML = isEnglish ? "Passport" : "Paspor";
-        document.getElementById("item55").innerHTML = isEnglish ? "Photocopy of Passport Documents" : "Fotokopi Paspor";
-        document.getElementById("item56").innerHTML = isEnglish ? "Driver License" : "Surat Izin Mengemudi";
-        document.getElementById("item57").innerHTML = isEnglish ? "Photocopy of Driver License Docuemnts" : "Fotokopi Surat Izin Mengemudi";
-        document.getElementById("item58").innerHTML = isEnglish ? "Workplace ID Card" : "Kartu Identitas Tempat Kerja";
-        document.getElementById("item59").innerHTML = isEnglish ? "Photocopy of Workplace ID Card" : "Fotokopi Kartu Identitas Tempat Kerja";
-        document.getElementById("item60").innerHTML = isEnglish ? "Name Card" : "Kartu Nama";
-        document.getElementById("item61").innerHTML = isEnglish ? "Name Card Documents" : "Dokumen Kartu Nama";
-        document.getElementById("item62").innerHTML = isEnglish ? "Preparing Guarantor" : "Mempersiapkan Penjamin";
-        document.getElementById("item63").innerHTML = isEnglish ? "Preparing Guarantor Whenever Necessary" : "Mempersiapkan Penjamin Kapanpun Diperlukan";
-        document.getElementById("item64").innerHTML = isEnglish ? "Parking Space" : "Tempat parkir";
-        document.getElementById("item65").innerHTML = isEnglish ? "Availability of Adequate and Proper Parking Space" : "Ketersediaan Tempat Parkir yang Memadai dan Layak";
-
-        // You can similarly update the content for other elements as needed
+        Object.keys(translations).forEach(id => {
+            let element = document.getElementById(id);
+            if (element) {
+                element.textContent = translations[id][currentLanguage];
+            }
+        });
     });
-</script>
+});
+  </script>
+  
+
 
 </body>
 
