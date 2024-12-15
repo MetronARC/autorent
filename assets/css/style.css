@@ -1313,32 +1313,10 @@ body.nav-active {
 
 .form-text .link {
   display: inline;
-  color: var(--gold-crayola);
+  color: white;
 }
 
-.form-right .headline-1 {
-  margin-block-end: 40px;
-}
-
-.form-right .contact-label {
-  margin-block-end: 5px;
-}
-
-.form-right .separator {
-  margin: 20px auto;
-}
-
-.form-right .body-4 {
-  color: var(--quick-silver);
-  line-height: var(--lineHeight-3);
-}
-
-.form-right .body-4:not(:last-child) {
-  margin-block-end: 25px;
-}
-
-.form-left,
-.form-right {
+.form-left{
   padding: 40px 20px 30px;
 }
 
@@ -1361,11 +1339,6 @@ textarea.input-field {
 .form-left .btn {
   max-width: 100%;
   width: 100%;
-}
-
-.form-right {
-  background-repeat: repeat;
-  background-position: top left;
 }
 
 /*-----------------------------------*\
@@ -2368,8 +2341,8 @@ textarea.input-field {
 
 .logo-carousel {
   overflow: inherit;
-  border-top: 1px solid #353535;
-  border-bottom: 1px solid #353535;
+  /* border-top: 1px solid #353535;
+  border-bottom: 1px solid #353535; */
 }
 
 .slick-slide img {
