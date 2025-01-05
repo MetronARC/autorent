@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Effect</title>
+    <style>
+        @keyframes scrolling {
+            0% {
+                transform: translateX(0%); /* Start from the center */
+            }
+
+            100% {
+                transform: translateX(-100%); /* Move to the left */
+            }
+        }
+
+        /* Default styles for the slider */
+        .slider-items {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin: 0; /* Reset margin */
+        }
+
+        /* Media query for medium and small screens */
+        @media (max-width: 768px) {
+            .slider-items {
+                animation: scrolling 10s linear infinite; /* Apply scrolling animation */
+            }
+        }
+    </style>
+</head>
+
+<body style="height: 100vh; background-color: #c9c9c9; display: grid; place-items: center; font-family: 'Poppins', sans-serif;">
+    <section style="display: grid; place-items: center;">
+        <h1 style="font-size: 3rem; padding: 20px; margin: 20px 0;">Our Partners</h1>
+        <div style="display: flex; justify-content: center; align-items: center; height: 100%; width: 80%; overflow: hidden; background: rgb(255, 255, 255); border-radius: 16px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(7.4px); -webkit-backdrop-filter: blur(7.4px); border: 1px solid rgba(255, 255, 255, 0.4);">
+            <div class="slider-items">
+                <img src="https://www.zarla.com/images/nike-logo-2400x2400-20220504.png?crop=1:1,smart&width=150&dpr=2" alt="" style="max-width: 100px; flex: 1; margin: 20px;">
+                <img src="https://www.zarla.com/images/apple-logo-2400x2400-20220512-1.png?crop=1:1,smart&width=150&dpr=2" alt="" style="max-width: 100px; flex: 1; margin: 20px;">
+                <img src="https://www.zarla.com/images/disney-logo-2400x2400-20220513-2.png?crop=1:1,smart&width=150&dpr=2" alt="" style="max-width: 100px; flex: 1; margin: 20px;">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Loon_%28company%29_logo.svg/800px-Loon_%28company%29_logo.svg.png" alt="" style="max-width: 100px; flex: 1; margin: 20px;">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
