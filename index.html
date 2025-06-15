@@ -374,176 +374,239 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- CARS -->
       <section class="section menu" aria-label="menu-label" id="recent">
         <div class="container">
-
           <h2 class="headline-1 section-title text-center" id="item14">Armada Tersedia</h2>
+          
+          <!-- Toggle Buttons -->
+          <div class="toggle-buttons" style="text-align: center; margin: 40px 0;">
+            <div class="button-group" style="display: inline-flex; background: rgba(255, 255, 255, 0.1); padding: 5px; border-radius: 10px;">
+              <button class="toggle-btn active" data-type="self-drive" style="padding: 12px 30px; margin: 0; border-radius: 8px; cursor: pointer; background-color: var(--gold-crayola); color: white; border: 1px solid var(--gold-crayola); font-weight: 500; transition: all 0.3s ease; transform: scale(1); box-shadow: none; font-size: 16px; @media (max-width: 768px) { padding: 8px 20px; font-size: 14px; } @media (max-width: 480px) { padding: 6px 15px; font-size: 12px; }">Self Drive</button>
+              <button class="toggle-btn" data-type="dengan-driver" style="padding: 12px 30px; margin: 0 0 0 5px; border-radius: 8px; cursor: pointer; background-color: transparent; color: var(--gold-crayola); border: 1px solid var(--gold-crayola); font-weight: 500; transition: all 0.3s ease; transform: scale(1); box-shadow: none; font-size: 16px; @media (max-width: 768px) { padding: 8px 20px; font-size: 14px; } @media (max-width: 480px) { padding: 6px 15px; font-size: 12px; }">Dengan Driver</button>
+            </div>
+          </div>
 
-          <ul class="grid-list self-drive-content active">
-            <!-- Original content for Self Drive -->
-            <li>
-              <div class="menu-card hover:card">
-                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-                  <img src="./assets/carImage/Honda-Brio.png" width="100" height="100" loading="lazy" alt="Toyota"
-                    class="img-cover" style="width: 175px; height: 175px; opacity: 1; object-fit: contain;">
-                </figure>
+          <style>
+            @media (max-width: 768px) {
+              .toggle-btn {
+                padding: 8px 20px !important;
+                font-size: 14px !important;
+              }
+              .button-group {
+                padding: 4px !important;
+              }
+            }
+            
+            @media (max-width: 480px) {
+              .toggle-btn {
+                padding: 6px 15px !important;
+                font-size: 12px !important;
+              }
+              .button-group {
+                padding: 3px !important;
+              }
+            }
+          </style>
 
-                <div>
-
-                  <div class="title-wrapper">
-                    <h3 class="title-3">
-                      <a href="#" class="card-title">Honda Brio</a>
-                    </h3>
-
-                    <span class="badge label-1">Start from IDR 350K</span>
-
-                    <a class="book-button" data-car-name="Toyota Fortuner" style="cursor: pointer;"></a>
-                  </div>
-
-                  <p class="card-text label-1">
-                    •	City Car •	Petrol •	Automatic
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="menu-card hover:card">
-
-                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-                  <img src="./assets/carImage/toyota-raize.png" width="100" height="100" loading="lazy" alt="Toyota"
-                    class="img-cover" style="width: 175px; height: 175px; opacity: 1; object-fit: contain;">
-                </figure>
-
-                <div>
-
-                  <div class="title-wrapper">
-                    <h3 class="title-3">
-                      <a href="#" class="card-title">Toyota Raize</a>
-                    </h3>
-
-                    <span class="badge label-1">Start fromIDR 350K</span>
-
-                    <a class="book-button" data-car-name="Toyota Fortuner" style="cursor: pointer;"></a>
-                  </div>
-
-                  <p class="card-text label-1">
-                    •	SUV •	Petrol •	Automatic
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-  <div class="menu-card hover:card">
-    <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-      <img src="./assets/carImage/Hyundai-Stargazer.webp" loading="lazy" alt="Hyundai"
-        class="img-cover" style="width: 175px; height: 175px; object-fit: contain; opacity: 1;">
-    </figure>
-
-    <div>
-      <div class="title-wrapper">
-        <h3 class="title-3">
-          <a href="#" class="card-title">Hyundai Stargazer</a>
-        </h3>
-        <span class="badge label-1">Start from IDR 400K</span>
-        <a class="book-button" data-car-name="Hyundai Stargazer" style="cursor: pointer;"></a>
-      </div>
-      <p class="card-text label-1">
-        • MPV • Petrol • Automatic
-      </p>
-    </div>
-  </div>
-</li>
-
-
-            <li>
-              <div class="menu-card hover:card">
-
-                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-                  <img src="./assets/carImage/Veloz.png" width="100" height="100" loading="lazy" alt="Toyota"
-                    class="img-cover" style="width: 175px; height: 175px; opacity: 1; object-fit: contain;">
-                </figure>
-
-                <div>
-
-                  <div class="title-wrapper">
-                    <h3 class="title-3">
-                      <a href="#" class="card-title">Toyota Veloz</a>
-                    </h3>
-
-                    <span class="badge label-1">Start from IDR 450K</span>
-
-                    <a class="book-button" data-car-name="Toyota Veloz" style="cursor: pointer;"></a>
-                  </div>
-
-                  <p class="card-text label-1">
-                    •	MPV •	Petrol •	Automatic
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="menu-card hover:card">
-
-                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-                  <img src="./assets/carImage/Toyota-Zenix.png" width="100" height="100" loading="lazy" alt="Toyota"
-                    class="img-cover" style="width: 175px; height: 175px; opacity: 1; object-fit: contain;">
-                </figure>
-
-                <div>
-
-                  <div class="title-wrapper">
-                    <h3 class="title-3">
-                      <a href="#" class="card-title">Toyota Zenix</a>
-                    </h3>
-
-                    <span class="badge label-1">Start from IDR 700K</span>
-
-                    <a class="book-button" data-car-name="Toyota Zenix" style="cursor: pointer;"></a>
-                  </div>
-
-                  <p class="card-text label-1">
-                    •	MPV •	Petrol •	CVT
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="menu-card hover:card">
-
-                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-                  <img src="./assets/carImage/Toyota-Fortuner.png" width="100" height="100" loading="lazy" alt="Toyota"
-                    class="img-cover" style="width: 175px; height: 175px; opacity: 1; object-fit: contain;">
-                </figure>
-
-                <div>
-                  <div class="title-wrapper">
-                    <h3 class="title-3">
-                      <a href="#" class="card-title">Toyota Fortuner</a>
-                    </h3>
-                    <span class="badge label-1">Start from IDR 1,200K</span>
-                  </div>
-
-                  <p class="card-text label-1">
-                    •	SUV •	Petrol/Diesel •	Automatic 
-                  </p>
-                </div>
-              </div>
-            </li>
-
+          <ul class="grid-list" id="car-list" style="opacity: 1; transition: opacity 0.3s ease-in-out;">
+            <!-- Cars will be dynamically inserted here -->
           </ul>
-
         </div>
       </section>
+
+      <!-- Car Data JSON -->
+      <script>
+        const carData = {
+          selfDrive: [
+            {
+              name: "Honda Brio",
+              image: "./assets/carImage/Honda-Brio.png",
+              price: "Start from 350K",
+              features: ["City Car", "Petrol", "Automatic"]
+            },
+            {
+              name: "Toyota Raize",
+              image: "./assets/carImage/toyota-raize.png",
+              price: "Start from 350K",
+              features: ["SUV", "Petrol", "Automatic"]
+            },
+            {
+              name: "Toyota Avanza",
+              image: "./assets/carImage/Toyota-Avanza.png",
+              price: "Start from 400K",
+              features: ["MPV", "Petrol", "Automatic"]
+            },
+            {
+              name: "Mitsubishi Xpander",
+              image: "./assets/carImage/mitsubishi-xpander.png",
+              price: "Start from 450K",
+              features: ["MPV", "Petrol", "Automatic"]
+            },
+            {
+              name: "Hyundai Stargazer",
+              image: "./assets/carImage/Hyundai-Stargazer.webp",
+              price: "Start from 400K",
+              features: ["MPV", "Petrol", "Automatic"]
+            },
+            {
+              name: "Toyota Veloz",
+              image: "./assets/carImage/Veloz.png",
+              price: "Start from 450K",
+              features: ["MPV", "Petrol", "Automatic"]
+            },
+            {
+              name: "Toyota Zenix",
+              image: "./assets/carImage/Toyota-Zenix.png",
+              price: "Start from 700K",
+              features: ["MPV", "Petrol", "CVT"]
+            },
+            {
+              name: "Toyota Fortuner",
+              image: "./assets/carImage/Toyota-Fortuner.png",
+              price: "Start from 1,200K",
+              features: ["SUV", "Petrol/Diesel", "Automatic"]
+            }
+          ],
+          denganDriver: [
+            {
+              name: "Hyundai Stargazer",
+              image: "./assets/carImage/Hyundai-Stargazer.webp",
+              price: "IDR 800K / SGD$63 / MYR 209",
+              features: ["MPV", "Petrol", "Automatic", "With Driver"]
+            },
+            {
+              name: "Toyota Avanza",
+              image: "./assets/carImage/Toyota-Avanza.png",
+              price: "IDR 800K / SGD$63 / MYR 209",
+              features: ["MPV", "Petrol", "Automatic"]
+            },
+            {
+              name: "Mitsubishi Xpander",
+              image: "./assets/carImage/mitsubishi-xpander.png",
+              price: "IDR 900K / SGD$71 / MYR 235",
+              features: ["MPV", "Petrol", "Automatic"]
+            },
+            {
+              name: "Toyota Veloz",
+              image: "./assets/carImage/Veloz.png",
+              price: "IDR 900K / SGD$71 / MYR 235",
+              features: ["MPV", "Petrol", "Automatic", "With Driver"]
+            },
+            {
+              name: "Toyota Zenix",
+              image: "./assets/carImage/Toyota-Zenix.png",
+              price: "IDR 1,200K / SGD$95 / MYR 313",
+              features: ["MPV", "Petrol", "CVT", "With Driver"]
+            },
+            {
+              name: "Toyota Fortuner",
+              image: "./assets/carImage/Toyota-Fortuner.png",
+              price: "IDR 1,800K / SGD$142 / MYR 470",
+              features: ["SUV", "Petrol/Diesel", "Automatic", "With Driver"]
+            },
+            {
+              name: "Hiace Commuter",
+              image: "./assets/carImage/Hiace-Commuter.png",
+              price: "IDR 1,300K / SGD$103 / MYR 340",
+              features: ["MPV", "Petrol/Diesel", "Automatic", "With Driver"]
+            },
+            {
+              name: "Toyota Alphard",
+              image: "./assets/carImage/Toyota-Alphard.png",
+              price: "IDR 3,500K / SGD$276 / MYR 913",
+              features: ["MPV", "Petrol/Diesel", "Automatic", "With Driver"]
+            },
+          ]
+        };
+
+        // Function to render car list with fade transition
+        function renderCarList(type) {
+          const carList = document.getElementById('car-list');
+          const cars = type === 'self-drive' ? carData.selfDrive : carData.denganDriver;
+          
+          // Fade out
+          carList.style.opacity = '0';
+          
+          setTimeout(() => {
+            // Update content
+            carList.innerHTML = cars.map(car => `
+              <li>
+                <div class="menu-card hover:card">
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="${car.image}" width="100" height="100" loading="lazy" alt="${car.name}"
+                      class="img-cover" style="width: 175px; height: 175px; opacity: 1; object-fit: contain;">
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">${car.name}</a>
+                      </h3>
+                      <span class="badge label-1">${car.price}</span>
+                      <a class="book-button" data-car-name="${car.name}" style="cursor: pointer;"></a>
+                    </div>
+
+                    <p class="card-text label-1">
+                      ${car.features.map(feature => `• ${feature}`).join(' ')}
+                    </p>
+                  </div>
+                </div>
+              </li>
+            `).join('');
+            
+            // Fade in
+            carList.style.opacity = '1';
+          }, 300); // Wait for fade out to complete
+        }
+
+        // Add event listeners to toggle buttons
+        document.addEventListener('DOMContentLoaded', function() {
+          const toggleButtons = document.querySelectorAll('.toggle-btn');
+          
+          // Initial render
+          renderCarList('self-drive');
+
+          // Add hover effects
+          toggleButtons.forEach(button => {
+            button.addEventListener('mouseenter', function() {
+              if (!this.classList.contains('active')) {
+                this.style.backgroundColor = 'rgba(185, 161, 107, 0.1)';
+                this.style.transform = 'scale(1.05)';
+                this.style.boxShadow = '0 4px 15px rgba(185, 161, 107, 0.2)';
+              } else {
+                this.style.transform = 'scale(1.05)';
+                this.style.boxShadow = '0 4px 15px rgba(185, 161, 107, 0.3)';
+              }
+            });
+
+            button.addEventListener('mouseleave', function() {
+              if (!this.classList.contains('active')) {
+                this.style.backgroundColor = 'transparent';
+                this.style.transform = 'scale(1)';
+                this.style.boxShadow = 'none';
+              } else {
+                this.style.transform = 'scale(1)';
+                this.style.boxShadow = 'none';
+              }
+            });
+
+            button.addEventListener('click', function() {
+              // Update active state of buttons
+              toggleButtons.forEach(btn => {
+                btn.classList.remove('active');
+                btn.style.backgroundColor = 'transparent';
+                btn.style.color = 'var(--gold-crayola)';
+                btn.style.transform = 'scale(1)';
+                btn.style.boxShadow = 'none';
+              });
+              this.classList.add('active');
+              this.style.backgroundColor = 'var(--gold-crayola)';
+              this.style.color = 'white';
+
+              // Render appropriate car list
+              renderCarList(this.dataset.type);
+            });
+          });
+        });
+      </script>
 
       
       <!-- 
