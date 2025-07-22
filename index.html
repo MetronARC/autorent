@@ -379,8 +379,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <!-- Toggle Buttons -->
           <div class="toggle-buttons" style="text-align: center; margin: 40px 0;">
             <div class="button-group" style="display: inline-flex; background: rgba(255, 255, 255, 0.1); padding: 5px; border-radius: 10px;">
-              <button class="toggle-btn active" data-type="self-drive" style="padding: 12px 30px; margin: 0; border-radius: 8px; cursor: pointer; background-color: var(--gold-crayola); color: white; border: 1px solid var(--gold-crayola); font-weight: 500; transition: all 0.3s ease; transform: scale(1); box-shadow: none; font-size: 16px; @media (max-width: 768px) { padding: 8px 20px; font-size: 14px; } @media (max-width: 480px) { padding: 6px 15px; font-size: 12px; }">Self Drive</button>
-              <button class="toggle-btn" data-type="dengan-driver" style="padding: 12px 30px; margin: 0 0 0 5px; border-radius: 8px; cursor: pointer; background-color: transparent; color: var(--gold-crayola); border: 1px solid var(--gold-crayola); font-weight: 500; transition: all 0.3s ease; transform: scale(1); box-shadow: none; font-size: 16px; @media (max-width: 768px) { padding: 8px 20px; font-size: 14px; } @media (max-width: 480px) { padding: 6px 15px; font-size: 12px; }">Dengan Driver</button>
+              <button class="toggle-btn" data-type="self-drive" style="padding: 12px 30px; margin: 0; border-radius: 8px; cursor: pointer; background-color: transparent; color: var(--gold-crayola); border: 1px solid var(--gold-crayola); font-weight: 500; transition: all 0.3s ease; transform: scale(1); box-shadow: none; font-size: 16px; @media (max-width: 768px) { padding: 8px 20px; font-size: 14px; } @media (max-width: 480px) { padding: 6px 15px; font-size: 12px; }">Self Drive</button>
+              <button class="toggle-btn active" data-type="dengan-driver" style="padding: 12px 30px; margin: 0 0 0 5px; border-radius: 8px; cursor: pointer; background-color: var(--gold-crayola); color: white; border: 1px solid var(--gold-crayola); font-weight: 500; transition: all 0.3s ease; transform: scale(1); box-shadow: none; font-size: 16px; @media (max-width: 768px) { padding: 8px 20px; font-size: 14px; } @media (max-width: 480px) { padding: 6px 15px; font-size: 12px; }">Dengan Driver</button>
             </div>
           </div>
 
@@ -392,6 +392,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               }
               .button-group {
                 padding: 4px !important;
+              }
+              
+              /* Center car details on mobile */
+              .menu-card {
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: center !important;
+                text-align: center !important;
+              }
+              
+              .menu-card > div {
+                text-align: center !important;
+                width: 100% !important;
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: center !important;
+              }
+              
+              .title-wrapper {
+                justify-content: center !important;
+                flex-direction: column !important;
+                align-items: center !important;
+                width: 100% !important;
+              }
+              
+              .card-title {
+                text-align: center !important;
+                margin: 0 auto !important;
+              }
+              
+              .card-text {
+                text-align: center !important;
+                margin: 0 auto !important;
+              }
+              
+              .badge {
+                margin: 10px auto !important;
               }
             }
             
@@ -562,7 +599,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           const toggleButtons = document.querySelectorAll('.toggle-btn');
           
           // Initial render
-          renderCarList('self-drive');
+          renderCarList('dengan-driver');
 
           // Add hover effects
           toggleButtons.forEach(button => {
